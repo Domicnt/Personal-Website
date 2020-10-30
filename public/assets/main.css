@@ -1,0 +1,60 @@
+body {
+    padding-top: 4%;
+    background-color: #669;
+}
+
+canvas {
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 5px 10px #111;
+}
+
+h1 {
+    width: 75%;
+    font-family: 'Josefin Slab';
+    font-size: 400%;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    width: 75%;
+    font-family: 'Josefin Slab';
+    font-size: 200%;
+    margin: auto;
+    text-align: center;
+}
+
+.topnav {
+    list-style-type: none;
+    width: 100%;
+    height: 8%;
+    overflow: hidden;
+    background-color: #666;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 5px 10px #111;
+  }
+  
+  .topnav a {
+    float: none;
+    width: 10%;
+    transform: translate(350%, 0%);
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 175%;
+    line-height: 200%;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    color: #999;
+  }
+  
+  .topnav a.active {
+    border-bottom: 20px solid #ccf;
+    color: #ccf;
+  }
