@@ -40,7 +40,8 @@ setInterval(function () {
 }, 20);
 
 //set up socket
-var socket = io.connect('http://localhost/');
+//var socket = io.connect('http://localhost/');
+var socket = io.connect('https:///p3r50n41.herokuapp.com');
 
 //send new location to server if moving
 canvas.addEventListener('mousemove', function(e){
